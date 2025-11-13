@@ -36,13 +36,32 @@
           <polyline points="12 19 5 12 12 5"/>
         </svg>
       </button>
-
       <div class="contact-us-image-wrapper">
         <img class="contact-us-image" src="images/gary-lyn-building.jpg" alt="">
       </div>
       <div class="contact-us-content">
         <h2 class="contact-us-content-title">Contact Us!</h2>
+        
+        <form class="contact-us-form">
+          <div class="contact-us-input-wrapper">
+            <label for="contact-us-name-input">Name:</label>
+            <input class="contact-us-input" id="contact-us-name-input" type="text" placeholder="Your full name" required>
+          </div>
+
+          <div class="contact-us-input-wrapper">
+            <label for="contact-us-email-input">Email:</label>
+            <input class="contact-us-input" id="contact-us-email-input" type="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="contact-us-input-wrapper">
+            <label for="contact-us-message-input">Message:</label>
+            <textarea class="contact-us-input contact-us-textarea" id="contact-us-message-input" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button type="submit" class="contact-us-submit-button">Send Message</button>
+        </form>
       </div>
+
     </div>
 
   </body>

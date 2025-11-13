@@ -160,6 +160,50 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
+.contact-us-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.contact-us-input {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  outline: none;
+}
+
+.contact-us-input:focus {
+  border-color: #1e5631;
+  box-shadow: 0 0 0 2px rgba(30, 86, 49, 0.2);
+}
+
+.contact-us-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.contact-us-submit-button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #1e5631;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-us-submit-button:hover {
+  background-color: #14521f;
+}
+
 /* Display for tablet devices */
 @media (min-width: 768px) {
     .hero-main-text {
@@ -177,10 +221,10 @@ h1, h2, h3, h4, h5, h6 {
     }
     .contact-us-section {
         width: 80%;
-        max-height: 70vh;
+        max-height: 90vh;
     }
     .contact-us-image-wrapper {
-        height: 250px; /* slightly taller on tablet */
+        height: 250px;
     }
     .contact-us-content {
         font-size: 1rem;
