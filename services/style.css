@@ -692,25 +692,6 @@
   overflow: visible;
   aspect-ratio: 1;
 }
-.rectangle-126 {
-  background: linear-gradient(
-    90deg,
-    rgba(23, 62, 36, 1) 0%,
-    rgba(42, 113, 66, 1) 73.07692170143127%,
-    rgba(46, 119, 71, 1) 97.58615493774414%
-  );
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
-  width: 930px;
-  height: 267px;
-  position: absolute;
-  left: 430px;
-  top: 299px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, -1);
-}
 .resources {
   position: absolute;
   inset: 0;
