@@ -441,16 +441,18 @@ background-color: #14521f;
   position: relative;
   overflow: hidden;
 }
-.pexels-proudlyswazi-33095902-1 {
+.services-bg1 {
+  background-image: url("icons/services_bg1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1081px;
   width: 100%;
-  height: 1061px;
-  position: absolute;
-  left: 0;
-  top: 21px;
-  display: flex;
-  object-fit: cover;
-  aspect-ratio: 100%/1061;
+  z-index: 1;
+  overflow: hidden;
 }
+
 .rectangle-67 {
   background: linear-gradient(
     270deg,
@@ -491,14 +493,16 @@ background-color: #14521f;
   align-items: center;
   justify-content: flex-start;
 }
-.pexels-cup-of-couple-6963787-1 {
-  width: 917px;
-  height: 1011px;
-  position: absolute;
-  left: 0px;
-  top: 1086px;
-  object-fit: cover;
-  aspect-ratio: 917/1011;
+.services-bg2 {
+  background-image: url("icons/services_bg2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1021px;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
 }
 .rectangle-68 {
   background: linear-gradient(
@@ -506,11 +510,11 @@ background-color: #14521f;
     rgba(255, 255, 255, 1) 44.23076808452606%,
     rgba(255, 255, 255, 0.04) 100%
   );
-  width: 1447px;
-  height: 1014px;
+  width: 100%;
+  height: 1021px;
   position: absolute;
   left: 0px;
-  top: 1084px;
+  top: 1081px;
 }
 .we-ensure-fast-delivery-secure-payments-and-support-you-can-trust-simple-and-hassle-free {
   color: #000000;
