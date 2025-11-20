@@ -307,24 +307,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 .service-section {
   min-height: 100vh;
+  position: relative;
   display: flex;
 }
 
 .section-content-bg {
+  position: relative;
   display: none;
   background: white;
 }
 
 .section-left-to-right-gradient {
+  position: relative;
   background: linear-gradient(90deg, rgb(255, 255, 255), rgba(0, 0, 0, 0));
 }
 
 .section-right-to-left-gradient {
+  position: relative;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(255, 255, 255));
 }
 
 .service-section > div {
   flex: 1;
+}
+
+.section-content {
+  border: solid 1px green;
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin: 0;
 }
 
 /* Tablet display */
