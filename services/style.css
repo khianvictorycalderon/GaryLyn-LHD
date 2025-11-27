@@ -417,6 +417,33 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.8rem;
 }
 
+.explore-services-button {
+  padding: 0.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+  border-radius: 16px;
+  outline: none;
+  background: none;
+  border: #1E5631 solid 2px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+  margin-left: 25%;
+  margin-top: 1rem;
+}
+
+.explore-services-button:hover {
+  background: #1E5631;
+  color: white;
+}
+
+.explore-services-button > img {
+  height: 35px;
+}
+
 /* TABLET DISPLAY */
 @media (min-width: 768px) {
   .services-section {
@@ -447,6 +474,12 @@ h1, h2, h3, h4, h5, h6 {
   .services-section-services-icons > .item > p {
     font-size: 0.9rem;
   }
+  .explore-services-button {
+    font-size: 1rem;
+    padding: 0.75rem;
+    margin-left: 25%;
+    margin-top: 2rem;
+  }
 }
 /* DESKTOP DISPLAY */
 @media (min-width: 1024px) {
@@ -474,6 +507,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   .services-section-services-icons > .item > p {
     font-size: 1rem;
+  }
+  .explore-services-button {
+    font-size: 1.15rem;
+    padding: 1rem;
+    margin-top: 3rem;
   }
 }
 
