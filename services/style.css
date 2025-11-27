@@ -459,6 +459,44 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.services-section-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.services-section-card-wrapper > .card {
+  background-color: #e2f8f5;
+  color: #1E5631;
+  padding: 0.8rem;
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.services-section-card-wrapper > .card > img {
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.services-section-card-wrapper > .card > .content > h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services-section-card-wrapper > .card > .content > p {
+  color: black;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+}
+
 /* TABLET DISPLAY */
 @media (min-width: 768px) {
   .services-section {
@@ -500,6 +538,15 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+  .services-section-card-wrapper {
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 4rem;
+  }
+  .services-section-card-wrapper > .card {
+    padding: 0.9rem;
+    width: 25%;
+  }
 }
 /* DESKTOP DISPLAY */
 @media (min-width: 1024px) {
@@ -536,6 +583,12 @@ h1, h2, h3, h4, h5, h6 {
   .services-section-2-content {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+  .services-section-card-wrapper {
+    gap: 2rem;
+  }
+  .services-section-card-wrapper > .card {
+    padding: 1rem;
   }
 }
 
