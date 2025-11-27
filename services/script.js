@@ -16,3 +16,13 @@ function closeNavBar() {
 
 navbarOverlay.addEventListener("click", closeNavBar);
 navbarCloseButton.addEventListener("click", closeNavBar);
+
+// For explore services button
+const exploreServicesButton = document.getElementById("explore-services-button");
+const fullServicesArea = document.getElementById("main-services-section");
+
+exploreServicesButton.addEventListener("click", () => {
+  fullServicesArea.scrollIntoView({ 
+    behavior: "smooth" 
+  });
+});
