@@ -292,5 +292,171 @@ h1, h2, h3, h4, h5, h6 {
 /* FOOTER STYLE ENDS HERE */
 
 /* ABOUT CONTENT STYLE STARTS HERE */
-    /* Put your actual style codes here */
+.about-section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.about-content {
+  position: relative;
+  padding-top: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  z-index: 30;
+}
+
+.about-bg {
+  background-image: url("images/gary-lyn-building.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  z-index: 10;
+}
+
+.about-bg-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background: linear-gradient(90deg, rgb(255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+.about-content-title-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.about-content-title {
+  color: #1e5631;
+  font-size: 1.5rem;
+}
+
+.about-content-subheading {
+  margin-top: 2rem;
+  color: #1e5631;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.about-content-paragraph {
+  color: #1e5631;
+  text-align: justify;
+  line-height: 1.5;
+
+  width: 100%;
+  letter-spacing: 0.75px;
+  word-spacing: 1.5px;
+  font-size: 1rem;
+}
+
+.about-content-specialties {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #1e5631;
+  width: 100%;
+}
+
+.about-content-specialties > div {
+  flex: 1;
+  padding: 1.25rem;
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.221)
+}
+
+.about-content-specialties-title {
+  font-size: 1.15rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-content-specialties-description {
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.about-content-specialties-image-wrapper {
+  text-align: center;
+}
+
+/* TABLET DISPLAY */
+@media (min-width: 768px) {
+  .about-bg {
+    width: 35%;
+  }
+  .about-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .about-content-paragraph {
+    width: 80%;
+    letter-spacing: 1.25px;
+    word-spacing: 2px;
+  }
+  .about-content-specialties {
+    width: 80%;
+  }
+  .about-content-specialties {
+    flex-direction: row;
+  }
+  .about-content-specialties-description {
+    font-size: 1rem;
+  }
+  .about-content-specialties-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* DESKTOP DISPLAY */
+@media (min-width: 1024px) {
+  .about-content {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .about-content-title-wrapper {
+    text-align: left;
+  }
+  .about-content-title {
+    margin-left: 16rem;
+  }
+  .about-bg {
+    width: 50%;
+  }
+  .about-content-title {
+    font-size: 1.75rem;
+  }
+  .about-content-subheading {
+    font-size: 1.5rem;
+  }
+  .about-content-paragraph {
+    width: 60%;
+    font-size: 1.125rem;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+  }
+  .about-content-specialties {
+    width: 60%;
+  }
+  .about-content-specialties-description {
+    font-size: 1.15rem;
+  }
+  .about-content-specialties-title {
+    font-size: 1.5rem;
+  }
+}
 /* ABOUT CONTENT STYLE ENDS HERE */
