@@ -293,4 +293,71 @@ h1, h2, h3, h4, h5, h6 {
 
 /* PRODUCTS CONTENT STYLE STARTS HERE */
     /* Put your actual style codes here */
+body {
+  background-color: #ffffff !important;
+}
+
+/* PRODUCT TITLE */
+.products-section {
+  margin-top: 95px;
+  padding: 20px 5%;
+}
+
+.products-title {
+  font-family: "Istok Web", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a3d1c;
+  margin-bottom: 25px;
+}
+
+/* HERO WRAPPER */
+.product-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* IMAGE */
+.hero-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* TEXT OVERLAY */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  max-width: 350px;
+  color: #0a3d1c;
+}
+
+.sub-heading {
+  font-family: "Istok Web", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.main-heading {
+  font-family: "Istok Web", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  line-height: 1.3;
+}
+
+.desc {
+  font-family: "Istok Web", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 /* PRODUCTS CONTENT STYLE ENDS HERE */
