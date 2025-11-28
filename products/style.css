@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -293,4 +294,341 @@ h1, h2, h3, h4, h5, h6 {
 
 /* PRODUCTS CONTENT STYLE STARTS HERE */
     /* Put your actual style codes here */
+body {
+  background-color: #ffffff !important;
+}
+
+.products-section {
+  margin-top: 95px;
+  padding: 20px 5%;
+}
+
+.products-title {
+  font-family: "Istok Web", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a3d1c;
+  margin-bottom: 25px;
+}
+
+/* HERO WRAPPER */
+.product-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* IMAGE */
+.hero-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* TEXT OVERLAY */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  max-width: 350px;
+  color: #0a3d1c;
+}
+
+.sub-heading {
+  font-family: "Istok Web", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.main-heading {
+  font-family: "Istok Web", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  line-height: 1.3;
+}
+
+.desc {
+  font-family: "Istok Web", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .products-section {
+    margin-top: 30px;
+    padding: 30px 5%;
+  }
+
+  .products-title {
+    display: none;
+    font-family: "Istok Web", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0a3d1c;
+    margin-bottom: 25px;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+
+  .main-heading {
+    font-family: "Istok Web", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    line-height: 1.3;
+    padding-bottom: 265px;
+    margin-left: 20px;
+  }
+
+  .sub-heading {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+
+  .desc {
+    font-family: "Istok Web", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #0a3d1c;;     
+    padding: 7px;                  
+    border-radius: 12px;            
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border: 1px solid  #0a3d1c;   
+  }
+}
+
+/* BASTA 3 KAMI RITO */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #97B7A2 ;
+}
+
+
+.container {
+    padding: 40px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1d3a24;
+    border-bottom: 3px solid #1d3a24;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* LEFT PANEL */
+.left-banner {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.left-banner img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 850px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 10%;            
+    left: 30%;           
+    color: #1a1a1a;
+    width: 70%;          
+}
+
+.banner-text .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 30px 0px 0;
+    text-align: right;
+}
+
+.banner-text .title span {
+    color: #0b4f2d;      
+}
+
+.banner-text .desc {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: right;
+    margin: 10px 30px 0px 0;
+}
+
+
+/* RIGHT PANEL GRID */
+.right-box {
+    flex: 1;
+}
+
+.category-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    color: #1d3a24;
+}
+
+.item-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+    width: 80%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card:hover {
+    scale: 1.05;
+    transition-duration: 0.5s;
+}
+.size {
+    font-size: 12px;
+    color: #333;
+    margin-top: 3px;
+}
+
+.stars {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+/* PULGOZO 'TO */
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 40px;
+    color: #0D4A1F;
+}
+
+.line{
+    width: 120px;
+    height: 4px;
+    background: #0D4A1F;
+    margin: 5px auto 40px auto;
+    border-radius: 10px;
+}
+
+.product-row{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width: 230px;
+    text-align: center;
+}
+
+.discount{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: #0D4A1F;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.name-box{
+    background: #0D4A1F;
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .left-banner img {
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .layout {
+    flex-direction: row;
+  }
+  .left-banner img {
+    max-height: 100%;
+  }
+}
+
 /* PRODUCTS CONTENT STYLE ENDS HERE */
